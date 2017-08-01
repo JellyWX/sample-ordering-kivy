@@ -1,0 +1,26 @@
+<Rect>:
+  col: self.col
+  size: self.size
+  pos: self.pos
+  canvas:
+    Color:
+      rgba: self.col
+    Rectangle:
+      pos: self.pos
+      size: self.size
+
+<Layers>:
+  r1: r1
+  r2: r2
+
+  Rect:
+    id: r1
+    col: 1,0,0,1
+    size: 100,100
+    pos:  100,100
+
+  Rect:
+    id: r2
+    col: 0,1,0,1
+    size: 100,100
+    pos:  100,150
